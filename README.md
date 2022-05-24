@@ -15,7 +15,7 @@ The Dapp is currently WIP & is not yet released to the public.
 - [ ] UI Overhaul
 - [ ] Add WS Tunneling
 - [ ] Local Auth
-- [ ] HTTP Request for Pricce Deviation
+- [ ] HTTP Request for Price Deviation
 
 <br />
 <br />
