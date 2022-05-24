@@ -1,0 +1,6 @@
+{
+  "appId": "com.templisaquaria.aqa",
+  "appName": "templis-aquaria",
+  "webDir": "www.templisaquaria.com",
+  "bundledWebRuntime": false
+}

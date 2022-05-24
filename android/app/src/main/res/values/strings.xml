@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">templis-aquaria</string>
+    <string name="title_activity_main">templis-aquaria</string>
+    <string name="package_name">com.templisaquaria.aqa</string>
+    <string name="custom_url_scheme">com.templisaquaria.aqa</string>
+</resources>
