@@ -7,5 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "CaptainUnknown",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@ionic-native/fingerprint-aio": "^5.36.0",
+    "cordova-plugin-fingerprint-aio": "^5.0.1"
+  }
 }
