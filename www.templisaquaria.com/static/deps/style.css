@@ -1,7 +1,12 @@
 html,
 body {
     /*height: 100%;*/
-    background-color: #212026;
+    background-image: url(/images/welcome.png);
+    background-size: cover;
+    /* <------ */
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* optional, center the image */
 }
 
 .container-fluid {
@@ -13,13 +18,13 @@ body {
 }
 
 #header {
-    background-color: #1D1E23;
     color: #f1f1f1;
+    font-family: ArchivoNarrow;
     /* padding: 0 !important; */
     /* display: flex; */
     /* flex: 3; */
-    /* align-items: center; */
-    /* justify-content: center; */
+    align-items: center;
+    justify-content: center;
     /* min-height: 130px; */
 }
 
@@ -33,13 +38,9 @@ body {
     flex-direction: row!important;
 }
 
-.aside {
-    background-color: #22222A;
-}
+.aside {}
 
-.paside {
-    background-color: #212026;
-}
+.paside {}
 
 .btn-radius {
     border-radius: 20px;
@@ -163,6 +164,7 @@ li>a.active:focus {
 
 .text-white {
     color: #f1f1f1;
+    font-family: ArchivoNarrow;
 }
 
 .text-gray {
@@ -178,7 +180,7 @@ li>a.active:focus {
 }
 
 .text-black {
-    color: #000;
+    color: rgba(0, 0, 0, 0);
 }
 
 .btn-back {
@@ -295,6 +297,13 @@ div#header>div.row>div.col-lg-8>div.row {
     width: 100%;
 }
 
+@font-face {
+    font-family: 'ArchivoNarrow';
+    /*a name to be used later*/
+    src: local('/fonts/archivo/archivo-narrow.ttf');
+    /*URL to font*/
+}
+
 @media screen and (max-width: 425px) {
     div#header {
         min-height: 130px;
@@ -363,13 +372,11 @@ div#header>div.row>div.col-lg-8>div.row {
         margin-bottom: 1rem!important;
         margin-top: 15px !important;
     }
-
     div#header {
         flex-direction: column;
         padding-right: 0px !important;
     }
-
-    #header > div.col-lg-8.col-md-8.col-sm-12 > div > div:last-of-type {
+    #header>div.col-lg-8.col-md-8.col-sm-12>div>div:last-of-type {
         justify-content: center!important;
         margin-bottom: 5px;
     }
